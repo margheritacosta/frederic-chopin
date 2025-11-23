@@ -68,7 +68,7 @@ a {
     border: 1px solid transparent; /* Bordo invisibile di default */
     color: rgba(255, 255, 255, 0.7);
     border-radius: 0.3rem;
-    transition: color 0.2s, background-color 0.2s, border-color 0.2s
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
 
   &:hover {
     color: rgba(255, 255, 255, 0.8);
