@@ -33,12 +33,13 @@ The information and content used in this project comes from the following main s
 
 ### Challenges Encountered and Solutions
 
-During the project, two main challenges were encountered and resolved through careful consultation of documentation and community resources.
+During the project, various challenges were encountered and resolved through careful consultation of documentation and community resources.
 
-| Challenge | Description and Impact | Solution Adopted |
+| Challenge | Description | Solution |
 | :--- | :--- | :--- |
-| **Data Management with SPARQL Queries** | The main difficulty was efficiently and correctly formulating **SPARQL** queries to extract the desired information from DBPedia and Wikidata. This was crucial to obtaining the semantic data necessary for creating the story. | The difficulty was overcome through an in-depth study of the official DBPedia and Wikidata **documentation**, supplemented by consulting specific **forums and tutorials** on the SPARQL language to resolve syntax and optimisation issues. |
-| **Website Definition and Development** | The correct insertion of elements and structuring of the website **layout** caused compatibility and display issues. | Similarly, these bugs and specific problems were resolved by rigorously consulting the reference **documentation** (e.g. GitHub Pages, HTML and CSS) and actively searching for solutions on **forums and web development communities** (e.g. Stack Overflow). |
+| **Data management with SPARQL queries** | The main difficulty was efficiently and correctly formulating **SPARQL** queries to extract the desired information from DBPedia and Wikidata. This was crucial to obtaining the semantic data necessary for creating the story. For example, when querying Wikidata for information on Chopin’s compositions, the results also included performances of his works by other artists.  | The difficulty was overcome through an in-depth study of the official DBPedia and Wikidata **documentation**, supplemented by consulting specific **forums and tutorials** on the SPARQL language to resolve syntax and optimisation issues. In this example, by applying the “by” filter: FILTER(CONTAINS(?catLabel, "by") it was possible to restrict the results to Chopin’s original compositions only.|
+| **Melody's limitations** | For example, it took some time to understand that images were limited to the **JPG** format, and **repositioning** elements after their creation (e.g. tables, graphs, and text boxes) was not always working, resulting to be time-consuming. | The challenge was solved through patiently experimenting and researching in order to find a solution. |
+| **Website Definition and Development** | The correct insertion of elements and structuring of the website **layout** caused compatibility and display issues. | Similarly, these bugs and specific problems were resolved by rigorously consulting the reference **documentation** (e.g. GitHub Pages, HTML and CSS) and actively searching for solutions on **forums and web development communities** (e.g. Stack Overflow). The website **W3Schools** was particularly useful to learn more about HTML and practice, together with CSS frameworks like **Bootstrap**. |
 
 
 
